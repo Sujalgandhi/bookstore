@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookStore</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="form-container">
+        <form action="/insert" method="post">
+            <h2>ADD DATA</h2>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <label for="author">Author</label>
+            <input type="text" id="author" name="author">
+            <label for="price">Price</label>
+            <input type="number" id="price" name="price">
+            
+            <button type="submit">Submit</button>
+            <br>
+            <br>
+            <a href="/show"><button type="button">View</button></a>
+        </form>
+    </div>
+</body>
+</html>
